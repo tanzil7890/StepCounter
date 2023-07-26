@@ -14,6 +14,10 @@ type RingProgressProps = {
 
 const color = '#EE0F55';
 
+/* This is working of Ring Progress for which we can track the number step counted each day. Which is 
+in the slider menu.
+*/
+
 const RingProgress = ({ radius = 100, strokeWidth=35, progress }: RingProgressProps) => {
 
     const innerRadius = radius - strokeWidth /2;
